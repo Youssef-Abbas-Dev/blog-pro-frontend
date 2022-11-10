@@ -28,6 +28,12 @@
     clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 5% 100%, 0% 50%, 5% 0);
     position: relative;
     text-transform: capitalize;
+    display: block;
+}
+
+.sidebar-link:hover {
+    background-color: var(--pumpkin-color);
+    color: var(--white-color);
 }
 
 .sidebar-link:after {

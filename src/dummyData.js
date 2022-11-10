@@ -77,4 +77,32 @@ export const posts = [
             image: "/images/user-avatar.png"
         }
     },
+];
+
+
+export const categories = [
+    {
+        _id: 1,
+        title: 'travelling',
+    },
+    {
+        _id: 2,
+        title: 'music',
+    },
+    {
+        _id: 3,
+        title: 'programming',
+    },
+    {
+        _id: 4,
+        title: 'cars',
+    },
+    {
+        _id: 5,
+        title: 'nature',
+    },
+    {
+        _id: 6,
+        title: 'coffee & tee',
+    },
 ]

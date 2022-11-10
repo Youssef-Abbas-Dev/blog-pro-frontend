@@ -16,6 +16,7 @@ import PostsTable from "./pages/admin/PostsTable";
 import CategoriesTable from "./pages/admin/CategoriesTable";
 import { ToastContainer } from "react-toastify";
 import CommentsTable from "./pages/admin/CommentsTable";
+import Category from "./pages/category/Category";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route index element={<PostsPage />} />
           <Route path="create" element={<CreatePost />} />
           <Route path="details/:id" element={<PostDetails />} />
+          <Route path="categories/:category" element={<Category />} />
         </Route>
         <Route path="admin-dashboard">
           <Route index element={<AdminDashboard />} />
