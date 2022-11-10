@@ -31,7 +31,6 @@ const CategoriesTable = () => {
           <thead>
             <tr>
               <th>Count</th>
-              <th>Admin Info</th>
               <th>Category Title</th>
               <th>Action</th>
             </tr>
@@ -40,16 +39,6 @@ const CategoriesTable = () => {
             {[1, 2, 3].map((item) => (
               <tr key={item}>
                 <td>{item}</td>
-                <td>
-                  <div className="table-image">
-                    <img
-                      src="/images/user-avatar.png"
-                      alt=""
-                      className="table-user-image"
-                    />
-                    <span className="table-username">12356478478787</span>
-                  </div>
-                </td>
                 <td>
                   <b>music</b>
                 </td>

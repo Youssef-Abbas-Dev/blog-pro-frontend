@@ -1,5 +1,5 @@
 import "./create-post.css";
-import { toast, ToastContainer } from "react-toastify";
+import { toast } from "react-toastify";
 import { useState } from "react";
 
 const CreatePost = () => {
@@ -28,7 +28,6 @@ const CreatePost = () => {
 
   return (
     <section className="create-post">
-      <ToastContainer theme="colored" />
       <h1 className="create-post-title">Create New Post</h1>
       <form onSubmit={formSubmitHandler} className="create-post-form">
         <input

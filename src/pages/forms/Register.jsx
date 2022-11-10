@@ -1,5 +1,5 @@
 import "./form.css";
-import { toast, ToastContainer } from "react-toastify";
+import { toast } from "react-toastify";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
@@ -20,7 +20,6 @@ const Register = () => {
 
   return (
     <section className="form-container">
-      <ToastContainer theme="colored" />
       <h1 className="form-title">Create new account</h1>
       <form onSubmit={formSubmitHandler} className="form">
         <div className="form-group">

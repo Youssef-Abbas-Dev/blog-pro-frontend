@@ -1,5 +1,5 @@
 import "./form.css";
-import { toast, ToastContainer } from "react-toastify";
+import { toast } from "react-toastify";
 import { useState } from "react";
 
 const ForgotPassword = () => {
@@ -15,7 +15,6 @@ const ForgotPassword = () => {
 
   return (
     <section className="form-container">
-      <ToastContainer theme="colored" />
       <h1 className="form-title">Forgot Password</h1>
       <form onSubmit={formSubmitHandler} className="form">
         <div className="form-group">

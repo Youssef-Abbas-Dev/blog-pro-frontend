@@ -3,7 +3,9 @@ import PostList from "../../components/posts/PostList";
 import { posts } from "../../dummyData";
 import { useEffect, useState } from "react";
 import UpdateProfileModal from "./UpdateProfileModal";
-import swal from "sweetalert"
+import swal from "sweetalert";
+import { toast } from "react-toastify";
+
 
 const Profile = () => {
 
@@ -17,7 +19,7 @@ const Profile = () => {
   // Form Submit Handler
   const formSubmitHandler = (e) => {
     e.preventDefault();
-    if(!file) return;
+    if(!file) return toast.warning("there is no file!");
 
     console.log("image uploaded");
   }

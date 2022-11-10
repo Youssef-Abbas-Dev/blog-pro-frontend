@@ -1,4 +1,4 @@
-import { toast, ToastContainer } from "react-toastify";
+import { toast } from "react-toastify";
 import { useState } from "react";
 
 const AddCategoryForm = () => {
@@ -14,7 +14,6 @@ const AddCategoryForm = () => {
 
   return (
     <div className="add-category">
-      <ToastContainer theme="colored" />
       <h6 className="add-category-title">Add New Category</h6>
       <form onSubmit={formSubmitHandler} className="add-category-form">
         <div className="add-category-form-group">
