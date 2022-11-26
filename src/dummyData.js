@@ -103,6 +103,6 @@ export const categories = [
     },
     {
         _id: 6,
-        title: 'coffee & tee',
+        title: 'coffee & tea',
     },
 ]
